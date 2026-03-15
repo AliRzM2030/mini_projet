@@ -1,6 +1,6 @@
 # Mini-Projet Bases de Données 
 
-## Partie 2
+# Partie 2
 
 ## Membres du groupe :
 - Aliyane
@@ -97,4 +97,39 @@ Fournis donc les règles de gestion et le dictionnaire de données.
 
 
 
-## PARTIE 2
+# Partie 2 
+
+## MLD
+
+```text
+ARENE(id_arene, nom, trophees_min)
+COMBAT(id_combat, date_combat, #id_arene)
+CLAN(id_clan, nom, description, nb_max_membres)
+JOUEUR(id_joueur, pseudo, niveau, trophees, or_jeu, gemmes, #id_clan*)
+DECK(id_deck, nom_deck, #id_joueur)
+CARTE(id_carte, nom, type_carte, rarete, cout_elixir)
+RECOMPENSE(id_recompense, or_gain, gemmes_gain, date_gain, #id_combat, #id_joueur)
+COMPOSER(#id_deck, #id_carte, position_carte)
+POSSEDER(#id_joueur, #id_carte, niveau_carte, quantite)
+PARTICIPER(#id_combat, #id_joueur, role, resultat_joueur, trophees_variation)
+RECOMPENSE_CARTE(#id_recompense, #id_carte, quantite)
+```
+
+## Scénario d’utilisation
+
+La base de données est utilisée par un analyste game design d’un jeu inspiré de Clash Royale.
+
+L’objectif est d’analyser :
+- l’activité des joueurs
+- les combats réalisés
+- les decks utilisés
+- les cartes possédées
+- les récompenses obtenues
+
+Ces informations permettent d’équilibrer le jeu et de suivre la progression des joueurs.
+
+Les requêtes SQL permettent par exemple de :
+- trouver les joueurs avec le plus de trophées
+- analyser les cartes les plus utilisées
+- voir les récompenses obtenues après les combats
+- analyser les performances des joueurs
