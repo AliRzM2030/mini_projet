@@ -3,7 +3,7 @@
 # Partie 1
 
 ## Membres du groupe :
-- Aliyane
+- BENCHEHIDA Aliyane
 - Anys
 
 ## Domaine choisi :
