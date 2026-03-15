@@ -4,7 +4,7 @@
 
 ## Membres du groupe :
 - BENCHEHIDA Aliyane
-- Anys
+- OUAYACH YAHIAT Anys
 
 ## Domaine choisi :
 Notre projet se basera sur la conception d'une base de données inspirée du jeu mobile Clash Royale.
