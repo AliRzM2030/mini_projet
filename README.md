@@ -1,6 +1,6 @@
 # Mini-Projet Bases de Données 
 
-##Partie 1
+## Partie 2
 
 ## Membres du groupe :
 - Aliyane
@@ -91,6 +91,10 @@ Fournis donc les règles de gestion et le dictionnaire de données.
 | Date d'obtention d'une récompense | date | 10 |
 
 
-##Screen MCD (looping) :
+## Screen MCD (looping) :
 
 ![MCD Clash Royale](mcd.png)
+
+
+
+## PARTIE 2
