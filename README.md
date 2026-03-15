@@ -1,6 +1,6 @@
 # Mini-Projet Bases de Données 
 
-# Partie 2
+# Partie 1
 
 ## Membres du groupe :
 - Aliyane
